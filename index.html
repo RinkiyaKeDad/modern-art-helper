@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet">
+  <title>Modern Art Helper</title>
+</head>
+
+<body>
+  <h1>Modern Art Helper</h1>
+  <div class="container">
+    <div class="player-container">
+      <h2>Player Info</h2>
+      <div class="player-info">
+        <div class="player-1-info">
+          Player 1: <span id="player-1-money">100</span>
+        </div>
+
+        <div class="player-2-info">
+          Player 2: <span id="player-2-money">100</span>
+        </div>
+
+        <div class="player-3-info">
+          Player 3: <span id="player-3-money">100</span>
+        </div>
+
+        <div class="player-4-info">
+          Player 4: <span id="player-4-money">100</span>
+        </div>
+
+        <div class="player-5-info">
+          Player 5: <span id="player-5-money">100</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <h2>Card Info</h2>
+
+      <div class="card-info">
+        <div class="yellow-info">Yellow: <span id="y-cards">0</span>/12</div>
+        <div class="blue-info">Blue: <span id="b-cards">0</span>/13</div>
+        <div class="red-info">Red: <span id="r-cards">0</span>/14</div>
+        <div class="green-info">Green: <span id="g-cards">0</span>/15</div>
+        <div class="orange-info">Orange: <span id="o-cards">0</span>/16</div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="form">
+    <form id="turn">
+      <label for="turn">Input Turn:</label><input id="turn-details" type="text" />
+      <button type="submit" form="turn">Submit</button>
+    </form>
+  </div>
+
+
+
+  <div id="event-log" class="event-log">
+    <h2>Event Log</h2>
+    <ul id="event-list" class="event-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
